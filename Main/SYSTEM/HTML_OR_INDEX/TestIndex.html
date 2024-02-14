@@ -1,0 +1,197 @@
+<body>
+    <style>
+    body{
+      background-color:white;
+    }
+    .cautionPatternDesign {
+            width: 200px;
+            height: 100px;
+            background-color: none;
+            position: fixed;
+            border: 3px solid black;
+             overflow: hidden;   
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index:10;
+    }
+    
+    .cautionPatternDesign:hover {
+          
+            background-color: whhite;
+            z-index: 5;
+    }
+    .gdc--1 {
+    background-color: Ffdf00;
+    
+    
+      
+      transform: rotate(-45deg);translate:(-50%, -20%);
+    }
+    .gdc--2 {
+    
+    background-color: Black;
+    
+      
+      transform: rotate(-45deg);translate:(-50%, -20%);
+    
+    }
+    #Logo--1 {
+            font-size: 80px;
+            z-index:3;
+            position: fixed;
+            
+            color: Red;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+    
+    
+    
+    
+    #gd--1 {
+    width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 25%;
+            position: fixed;
+    
+    }
+    
+    #gd--2 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 6%;
+            position: fixed;
+    
+    }
+    #gd--3 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -13.7%;
+            position: fixed;
+    
+    }
+    #gd--4 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -33.5%;
+            position: fixed;
+    
+    }
+    #gd--5 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -53.1%;
+            position: fixed;
+    
+    }
+    #gd--6 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 44.6%;
+            position: fixed;
+    
+    }
+    
+    #gd--7 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 64.5%;
+            position: fixed;
+    
+    }
+    #gd--8 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -72.5%;
+            position: fixed;
+    
+    }
+    #gd--9 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -92.1%;
+            position: fixed;
+    
+    }
+    #gd--10 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 84.22%;
+            position: fixed;
+    
+    }
+    #gd--11 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: 104%;
+            position: fixed;
+    
+    }
+    #gd--12 {
+      width: 200px;
+      height: 28px;
+            top: 37%;
+            left: -111.9%;
+            position: fixed;
+    
+    }
+    </style>
+    <button class="cautionPatternDesign">
+    
+    <a id="Logo--1">⚠</a>
+    
+    <div class="Pattern--1">
+      <div id="gd--1" class="gdc--1"></div>
+      <div id="gd--2"class="gdc--2"></div>
+      <div id="gd--3"class="gdc--1"></div>
+      <div id="gd--4"class="gdc--2"></div>
+      <div id="gd--5"class="gdc--1"></div>
+      <div id="gd--6"class="gdc--2"></div>
+      <div id="gd--7"class="gdc--1"></div>
+      <div id="gd--8"class="gdc--2"></div>
+      <div id="gd--9"class="gdc--1"></div>
+      <div id="gd--10"class="gdc--2"></div>
+      <div id="gd--11"class="gdc--1"></div>
+      <div id="gd--12"class="gdc--2"></div>
+        </div>
+    </div>
+    </button>
+    <script>
+    const cautionPatternDesign = document.getElementById("cautionPatternDesign");
+    
+    let bodyBackground = "white";
+    
+    cautionPatternDesign.addEventListener("click", () => {
+      switch (bodyBackground) {
+        case "white":
+          bodyBackground = "red";
+          break;
+        case "red":
+          bodyBackground = "yellow";
+          break;
+        case "yellow":
+          bodyBackground = "blue";
+          break;
+        case "blue":
+          bodyBackground = "white";
+          break;
+      }
+    
+      document.body.style.backgroundColor = bodyBackground;
+    });
+    </script>
+    </body>
+      

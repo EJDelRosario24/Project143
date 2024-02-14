@@ -1,0 +1,47 @@
+#clickCounter {
+    display: none;
+    opacity: 0.8;
+    padding: 10px;
+    background-color: lightblue;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px; /* Added margin-top for spacing */
+    z-index: 100;
+  }
+
+  #UnlockedCongrats {
+    display: none;
+    opacity: 0.5;
+    height: 100px;
+    width: 300px;
+    background-color: lightblue;
+    animation: countdown2s 2s linear forwards;
+  }
+
+
+  #locked, #unlocked{
+    background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 3;
+  }
+
+
+  #myButton-3 {
+
+    padding: 1px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 20%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 10;
+  }

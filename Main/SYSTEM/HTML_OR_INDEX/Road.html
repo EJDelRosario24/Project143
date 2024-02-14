@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#rov {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+</style>
+</head>
+<body>
+    <div id="rov"></div>
+
+    <script>
+        // Function to save the current position to local storage
+        function saveProgress() {
+            var rov = document.getElementById("rov");
+            var topPosition = rov.style.top;
+            var leftPosition = rov.style.left;
+            
+            localStorage.setItem("rovTop", topPosition);
+            localStorage.setItem("rovLeft", leftPosition);
+        }
+
+        // Function to load the saved position from local storage
+        function loadProgress() {
+            var rov = document.getElementById("rov");
+            var topPosition = localStorage.getItem("rovTop");
+            var leftPosition = localStorage.getItem("rovLeft");
+            
+            if (topPosition && leftPosition) {
+                rov.style.top = topPosition;
+                rov.style.left = leftPosition;
+            }
+        }
+
+        document.addEventListener("keydown", function(event) {
+            var rov = document.getElementById("rov");
+            var topPosition = parseInt(rov.style.top) || 0;
+            var leftPosition = parseInt(rov.style.left) || 0;
+            var stepSize = 10;
+
+            switch (event.key) {
+                case "w":
+                    rov.style.top = (topPosition - stepSize) + "px";
+                    break;
+                case "a":
+                    rov.style.left = (leftPosition - stepSize) + "px";
+                    break;
+                case "s":
+                    rov.style.top = (topPosition + stepSize) + "px";
+                    break;
+                case "d":
+                    rov.style.left = (leftPosition + stepSize) + "px";
+                    break;
+            }
+
+            // Save the progress on every key press
+            saveProgress();
+        });
+
+        // Load the saved progress when the page is loaded
+        window.onload = loadProgress;
+    </script>
+</body>
+</html>

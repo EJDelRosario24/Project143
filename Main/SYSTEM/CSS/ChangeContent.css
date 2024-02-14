@@ -1,0 +1,205 @@
+
+  .ChangeContentSystem {
+    z-index: 99999999999999;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+  }
+
+ 
+  .hidden {
+    display: none;
+  }
+  
+  .selection-panel {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 300px;
+    opacity: 0.8;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    z-index: 999999999;
+  }
+
+    #CAC323 {
+      font-family: impact;
+    }
+    #SPDiv {
+      text-align: center;
+    }
+  .close-button {
+    position: absolute;
+    top: 3px;
+    right: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 2px;
+    height: 2px;
+    font-family: system-ui;
+  }
+  
+  .option {
+    display: none;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  
+  
+    
+
+
+
+    
+  #main-button
+    {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 3;
+  }
+ 
+.mB2,.mB3,.mB4
+ {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 3;
+}
+
+.mB4 {
+  z-index: 5;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  
+  
+}
+
+#mB_4 {
+  z-index: 3;
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 9.7px 19.9px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  
+  overflow: hidden;
+}
+#mB4CPB {
+  height: 100px;
+  width: 200px;
+  color: #000;
+  border: none;
+
+  position: fixed;
+  z-index: 3;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#startup-button-css
+
+ {
+  background-color: #2b2a2a;
+  color: #000;
+  border: 3px, black;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 900;
+}
+
+
+
+
+#startup-button-css:hover {
+  /* Button hover styles */
+  background-color: #4f4f4f;
+  color: #ffffff;
+}
+
+#startup-button-css:active {
+  /* Button click styles */
+  background-color: #d5d5d5;
+  color: red;
+}
+
+
+  
+ 
+
+.mB4:hover {
+  background-color: black;
+  color: red;
+}
+
+.mB4:active {
+  /* Button click styles */
+  background-color: goldenrod;
+  color: Black;
+  opacity: 1;
+}
+.mB1.on,
+.mB2.on,
+.mB3.on {
+  background-color: #0bff0b;
+  text-decoration-color: limegreen;
+  border: 3px solid limegreen;
+  animation-name: mB_on;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+}
+.mB1.off,
+.mB2.off,
+.mB3.off {
+  background-color: #f00;
+  border: 3px solid rgb(179, 0, 0);
+  text-decoration-color: #F00;
+  animation-name: mB_off;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+}

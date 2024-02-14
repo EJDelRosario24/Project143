@@ -1,0 +1,67 @@
+.billboardParts {
+    width: 25px;
+    height: 100px;
+    position: fixed;
+    top: 63.5%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
+.billboardPart1 {
+    width: 25px;
+    height: 100px;
+    background-color: rgb(15, 15, 15); 
+    position: fixed;
+    z-index: 1;
+    border: 3px solid black;
+    top: 75%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .billboardPart2 {
+    width: 25px;
+    height: 100px;
+    background-color: rgb(15, 15, 15); 
+    position: fixed;
+    z-index: 1;
+    border: 3px solid black;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+
+
+
+  .BbF {
+    width: 25px;
+    height: 100px;
+    background-color: rgb(15, 15, 15); 
+    position: absolute;
+    border: 3px solid black;
+    top: 127%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    animation-name: BillboardFoot;
+    animation-duration: 5;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+  }
+  .BbF2 {
+    width: 25px;
+    height: 100px;
+    background-color: rgb(15, 15, 15); 
+    position: absolute;
+    border: 3px solid black;
+    top: 127%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+   
+    z-index: 1;
+  }

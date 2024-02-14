@@ -1,0 +1,59 @@
+.mB1 {
+  background-color: #ffffff;
+  color: #000;
+  border: 3px solid rgb(187, 187, 187);
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  top: 80%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  z-index: 3;
+}
+
+.mB1:hover {
+  background-color: #fff0f0;
+}
+
+.mB1.on {
+  background-color: #0bff0b;
+  text-decoration-color: limegreen;
+  border: 3px solid limegreen;
+  animation-name: mB_on;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+}
+
+.mB1.off {
+  background-color: #f00;
+  border: 3px solid rgb(179, 0, 0);
+  text-decoration-color: #F00;
+  animation-name: mB_off;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  z-index: 3;
+}
+
+@keyframes mB_on- {
+  0% {
+    background-color: #0bff0b;
+    border-color: rgb(91, 255, 116);
+  }
+  100% {
+    background-color: lightgreen;
+    border-color: limegreen;
+  }
+}
+
+@keyframes mB_off- {
+  0% {
+    background-color: #f00;
+  }
+  100% {
+    background-color: lightsalmon;
+  }
+}

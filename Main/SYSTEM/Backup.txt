@@ -1,0 +1,15 @@
+
+  function changeButton(buttonId) {
+    var buttons = document.querySelectorAll("button");
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove("current");
+    }
+    var selectedButton = document.getElementById(buttonId);
+    selectedButton.classList.add("current");
+  
+    var mainButton = document.getElementById("myButton");
+    mainButton.innerHTML = selectedButton.innerHTML;
+    mainButton.id = buttonId;
+    mainButton.onclick = selectedButton.onclick;
+  }
+  

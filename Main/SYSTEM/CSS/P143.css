@@ -1,0 +1,576 @@
+
+      #blackscreen {
+        width: 400px;
+        height: 200px;
+        background-color: black;
+        position: fixed;
+        border: 3px solid black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        animation-name: BS123;
+        animation-duration: 2;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation: my-animation 2s ease-in-out;
+        z-index: 4;
+      }
+  
+
+
+
+
+   .box {
+        width: 400px;
+        height: 200px;
+        background-color: blue;
+        position: fixed;
+        border: 3px solid black;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: BoxMain;
+        animation-duration: 5;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation: my-animation 2s ease-in-out;
+        z-index: 3;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .I {
+        width: 400px;
+        height: 200px;
+        background-color: rgb(255, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: I;
+        animation-duration: 5s;
+        
+        animation-iteration-count: infinite;
+  }
+      
+  
+      .Heart {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: Heart;
+        animation-duration: 5s;
+        
+        animation-iteration-count: infinite;
+  }
+      
+  
+  .You {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: UwU;
+        
+        animation-duration: 5s;
+        
+        animation-iteration-count: infinite;
+      }
+      .You_2 {
+        width: 400px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-overflow: clip;
+
+        animation-name: UwU2;
+        
+        animation-duration: 5s;
+        
+        animation-iteration-count: infinite;
+      }
+  
+  
+  
+  
+     .upline2L {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+  
+      .upline1L {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+    .centerI {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+    .downline1L {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+  
+      .downline2L {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  
+  
+  
+  
+  
+  
+  
+      .MidTop11 {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+       .w212L {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .w121L {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+  
+      .w212R {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+  
+      .w121R {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+  
+  
+      .box456L {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .box456_2L {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 40%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .box456_3L {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+     
+      .box456R {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .box456_2R {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .box456_3R {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+  
+  
+      .D719L{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 5s;
+        animation-delay: 0s;
+      }
+  
+      .D719_2L{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .D719R{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .D719_2R{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+      .MidDown11 {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation-name: fire;
+        animation-duration: 10s;
+        animation-delay: 2s;
+      }
+  
+  
+  
+  
+  
+  
+      .LL111 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+      .Dcenter {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 70%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+    .D1L {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+   
+  
+    .LL11 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+  
+    .MidLL {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .LL1 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .LL2 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .LL2 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 60%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+  
+    .RR2 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .RR1 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .MidRR {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 50%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .RR11 {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+      
+    }
+    
+  
+  
+  @keyframes BS123{
+  0%     {background-color: black;}
+  100%   {background-color: rgb(15, 15, 15);}
+  }
+
+    @keyframes BoxMain {
+  0%      {background-color: red;}  
+  33.3333% {background-color: red;}
+  34%      {background-color: red;}
+  65%      {background-color:blue;}
+  66.6666% {background-color:blue;}
+  67%      {background-color:blue;}
+  98%      {background-color: red;}
+  99.9999% {background-color: red;}
+  100%     {background-color: red;}
+  }
+  
+  @keyframes I {
+  0%      {opacity:1;}  
+  33.3333% {opacity:1;}
+  34%      {opacity:0;}
+  65%      {opacity:0;}
+  66.6666% {opacity:0;}
+  67%      {opacity:0;}
+  98%      {opacity:0;}
+  99.9999% {opacity:0;}
+  100%     {opacity:0;}
+  }
+  
+  @keyframes Heart {
+  0%      {opacity:0;}  
+  33.3333% {opacity:0;}
+  34%      {opacity:1;}
+  65%      {opacity:1;}
+  66.6666% {opacity:1;}
+  67%      {opacity:0;}
+  98%      {opacity:0;}
+  99.9999% {opacity:0;}
+  100%     {opacity:0;}
+  }
+  @keyframes UwU {
+  0%       {opacity:0;}  
+  33.3333% {opacity:0;}
+  34%      {opacity:0;}
+  65%      {opacity:0;}
+  66.6666% {opacity:0;}
+  67%      {opacity:1;}
+  98%      {opacity:1;}
+  99.9999% {opacity:1;}
+  100%     {opacity:0;}
+  }
+ 
+  @keyframes UwU2 {
+  0%       {opacity:0;}  
+  33.3333% {opacity:0;}
+  34%      {opacity:0;}
+  65%      {opacity:0;}
+  66.6666% {opacity:0;}
+  67%      {opacity:1;}
+  98%      {opacity:1;}
+  99.9999% {opacity:1;}
+  100%     {opacity:0;}
+  }
+  
